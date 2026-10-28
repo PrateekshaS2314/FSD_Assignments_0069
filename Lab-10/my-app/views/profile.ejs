@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title><%= title %></title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main class="container">
+      <nav class="navbar" aria-label="Main navigation">
+        <a href="/">Home</a>
+        <a href="/profile">Profile</a>
+        <a href="/contact">Contact</a>
+      </nav>
+
+      <section class="content-card">
+        <p class="eyebrow">About me</p>
+        <h1>My Profile</h1>
+        <div class="profile-details">
+          <p><strong>Name:</strong> <%= name %></p>
+          <p><strong>Email:</strong> <%= email %></p>
+          <p><strong>Course:</strong> <%= course %></p>
+          <div>
+            <strong>Skills:</strong>
+            <ul class="skills-list">
+              <% skills.forEach((skill) => { %>
+                <li><%= skill %></li>
+              <% }); %>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
