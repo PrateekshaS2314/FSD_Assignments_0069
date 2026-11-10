@@ -1,0 +1,18 @@
+{
+  "name": "pawconnect",
+  "version": "0.1.0",
+  "private": true,
+  "description": "PawConnect pet adoption platform",
+  "workspaces": ["frontend", "backend"],
+  "scripts": {
+    "dev": "concurrently -k -n api,client -c magenta,cyan \"npm run server\" \"npm run client\"",
+    "client": "npm run dev --workspace frontend",
+    "server": "npm run dev --workspace backend",
+    "start": "npm run start --workspace backend",
+    "build": "npm run build --workspace frontend",
+    "test": "npm test --workspace backend"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  }
+}

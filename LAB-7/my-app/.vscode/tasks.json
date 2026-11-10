@@ -1,0 +1,30 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Install PawConnect dependencies",
+      "type": "shell",
+      "command": "npm install",
+      "problemMatcher": []
+    },
+    {
+      "label": "Run PawConnect",
+      "type": "shell",
+      "command": "npm run dev",
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "Build PawConnect frontend",
+      "type": "shell",
+      "command": "npm run build",
+      "problemMatcher": []
+    },
+    {
+      "label": "Test PawConnect API",
+      "type": "shell",
+      "command": "npm test",
+      "problemMatcher": []
+    }
+  ]
+}

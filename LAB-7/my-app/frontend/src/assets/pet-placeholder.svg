@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480">
+  <rect width="640" height="480" rx="32" fill="#f3e8dc"/>
+  <circle cx="320" cy="235" r="160" fill="#f8f1e8"/>
+  <g fill="#b87560">
+    <ellipse cx="225" cy="192" rx="36" ry="47" transform="rotate(-28 225 192)"/>
+    <ellipse cx="293" cy="156" rx="34" ry="45" transform="rotate(-9 293 156)"/>
+    <ellipse cx="361" cy="156" rx="34" ry="45" transform="rotate(9 361 156)"/>
+    <ellipse cx="426" cy="193" rx="36" ry="47" transform="rotate(28 426 193)"/>
+    <path d="M320 202c-32 0-74 29-74 68 0 34 27 49 58 38 9-3 15-7 16-7s7 4 16 7c31 11 58-4 58-38 0-39-42-68-74-68z"/>
+  </g>
+  <path d="M302 276c0-8 8-14 18-14s18 6 18 14c0 12-18 25-18 25s-18-13-18-25z" fill="#fff7ed"/>
+  <text x="320" y="406" fill="#8f6657" font-family="Arial,sans-serif" font-size="20" font-weight="700" text-anchor="middle" letter-spacing="3">A FRIEND IS WAITING</text>
+</svg>
